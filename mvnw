@@ -218,7 +218,7 @@ else
     if [ -n "$MVNW_REPOURL" ]; then
       jarUrl="$MVNW_REPOURL/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
     else
-      jarUrl="https://nexus.gaig.com/nexus/repository/maven-central/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+      jarUrl="https://nexus.gaig.com/nexus/repository/maven-central/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
     fi
     while IFS="=" read key value; do
       case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
