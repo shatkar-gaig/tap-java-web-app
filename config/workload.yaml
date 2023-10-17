@@ -16,6 +16,10 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
+  - name: buildServiceBindings
+    value:
+    - kind: secret
+      name: maven-settings-xml
   source:
     git:
       url: <https URL for your generated project's Git repository>
